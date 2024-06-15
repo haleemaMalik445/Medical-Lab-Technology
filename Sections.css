@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap,Abril+Fatface&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Yeseva+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+
+h1 span {
+    color: rgb(23, 23, 82);
+    font-family: "Yeseva One", serif;
+    font-weight: 1500;
+}
+
+.section {
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sect {
+    margin: 1px;
+    height: 350px;
+    width: 400px;
+}
+
+.sec1 {
+    height: 360px;
+    border-radius: 10%;
+    background-color: rgb(183, 183, 199);
+}
+
+.miq {
+    text-align: center;
+    font-size: x-large;
+    color: rgb(23, 23, 82);
+    font-family: "Yeseva One", serif;
+    margin-top: 7px;
+}
+
+.sec1 img {
+    margin-top: 15px;
+    height: 250px;
+    margin-bottom: 10px;
+    width: 397px;
+}
+
+button {
+    color: white;
+    background-color: rgb(23, 23, 82);
+    padding: 7px;
+    font-family: "Yeseva One", serif;
+    font-size: small;
+    border-radius: 10px;
+    justify-content: space-between;
+    border: 2px solid rgb(23, 23, 82);
+}
+
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.goodness,
+.details {
+    height: 280px;
+}
+
+.mops {
+    font-size: large;
+    padding: 35px;
+    text-align: justify;
+}

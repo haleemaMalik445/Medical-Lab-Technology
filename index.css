@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap,Abril+Fatface&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Yeseva+One&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 3px solid rgb(205, 205, 218);
+  height: 641px;
+  background-image: url(Images/oo1\ \(1\).png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position-x: 600px;
+  background-color: rgb(205, 205, 218);
+}
+
+.navbar {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.logo {
+  height: 59px;
+  width: 150px;
+  color: white;
+  margin-left: 14px;
+}
+
+.logo h1 {
+  position: relative;
+  margin-top: 15px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 1500;
+  font-style: normal;
+  font-size: 3vw;
+  color: rgb(23, 23, 82);
+  ;
+}
+
+.tags {
+  width: 700px;
+  height: 30px;
+  margin-top: 25px;
+  position: sticky;
+}
+
+.tags a {
+  justify-content: space-evenly;
+  font-family: "Yeseva One", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 1.2vw;
+  color: rgb(23, 23, 82);
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 70px;
+  cursor: pointer;
+}
+
+a:hover {
+  color: rgb(79, 71, 116);
+}
+
+.hover-line::after {
+  content: '';
+  top: 90px;
+  display: block;
+  width: 0%;
+  height: 3px;
+  border-radius: 20px;
+  background-color: rgb(23, 23, 82);
+  transition: width .3s;
+}
+
+.hover-line:hover::after {
+  width: 100%;
+  transition: width .5s;
+}
+
+.icons {
+  height: 30px;
+  width: 150px;
+  margin-top: 25px;
+}
+
+.icons i {
+  color: rgb(23, 23, 82);
+  padding: 10px;
+}
+
+.icons i:hover {
+  color: rgb(79, 71, 116);
+}
+
+.home {
+  height: 160px;
+  width: fit-content;
+  margin-top: 150px;
+  margin-left: 80px
+}
+
+.home h1 {
+  text-align: center;
+  color: rgb(23, 23, 82);
+  font-family: "Yeseva One", serif;
+  font-weight: 1500;
+  font-style: normal;
+  font-size: xx-large;
+}
+
+.dec span {
+  font-size: 60px;
+  color: transparent;
+  background-image: linear-gradient(rgb(23, 23, 82), rgb(23, 23, 82));
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-position: -750px 0;
+  animation: backcolor 5s linear infinite;
+}
+
+@keyframes backcolor {
+  100% {
+    background-position: 0 0;
+  }
+}
+
+button {
+  color: white;
+  background-color: rgb(23, 23, 82);
+  padding: 7px;
+  font-size: medium;
+  margin-top: 30px;
+  margin-right: 25px;
+  border-radius: 10px;
+  justify-content: space-between;
+  border: 2px solid rgb(23, 23, 82);
+  ;
+}
+
+button:hover {
+  background-color: rgb(205, 205, 218);
+  color: rgb(23, 23, 82);
+  border: 2px solid rgb(23, 23, 82);
+}
+@media only screen and (max-width: 500px){
+  body{
+    background-color: rgb(205, 205, 218);}
+  .icons i{margin-bottom: 15px;}
+  .logo h1{font-size: 6vw;}
+  .container{background-image: none;}
+  .button{margin-right:15px ;}
+}
+  
